@@ -2,13 +2,3 @@
  DR-55 Drum machine
 
  License - CC BY 4.0
-
-Why am I so high?
-
-Lol this is craaaazy
-
-Why are you writibg that???
-
-Yeah its so fuuuun
-
-Haha Now lets contribute to the Eurorack scene!
