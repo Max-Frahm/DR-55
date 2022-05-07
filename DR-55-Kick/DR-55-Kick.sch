@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -401,4 +401,8 @@ Wire Wire Line
 	2100 1500 1500 1500
 Text HLabel 1500 1500 0    50   Input ~ 0
 TRGIN
+Text HLabel 5500 1550 0    50   Input ~ 0
+6V
+Text HLabel 4000 3450 0    50   Input ~ 0
+GND
 $EndSCHEMATC
