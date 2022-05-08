@@ -22,7 +22,7 @@ NOISEIN
 Text HLabel 8000 3500 2    50   Input ~ 0
 OUT
 Text HLabel 8000 4000 2    50   Input ~ 0
-VOLOUT
+NOISYOUT
 Text HLabel 5000 2650 0    50   Input ~ 0
 6V
 $Comp

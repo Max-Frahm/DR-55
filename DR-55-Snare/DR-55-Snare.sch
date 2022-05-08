@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -560,7 +560,7 @@ Text HLabel 5000 1050 0    50   Input ~ 0
 Wire Wire Line
 	5000 1000 5000 1100
 Text HLabel 6500 4500 2    50   Input ~ 0
-VOLOUT
+NOISYOUT
 Wire Wire Line
 	6500 4500 6400 4500
 Text HLabel 3000 4000 0    50   Input ~ 0
