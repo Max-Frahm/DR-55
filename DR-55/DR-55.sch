@@ -14,18 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1000 3000 1000 1500
-U 62740CD0
-F0 "Snare" 50
-F1 "E:/GitHub/Eurorack/DR-55/DR-55-Snare/DR-55-Snare.sch" 50
-F2 "TRGIN" I R 2000 3200 50 
-F3 "GND" I R 2000 4300 50 
-F4 "OUT" I R 2000 3800 50 
-F5 "6V" I R 2000 4100 50 
-F6 "NOISEIN" I R 2000 3400 50 
-F7 "NOISYOUT" I R 2000 3600 50 
-$EndSheet
-$Sheet
 S 1000 7000 1000 1500
 U 627D8A3A
 F0 "Hi Hats" 50
@@ -78,10 +66,6 @@ F3 "TRGIN" I R 2000 1200 50
 F4 "6V" I R 2000 2100 50 
 F5 "GND" I R 2000 2300 50 
 $EndSheet
-Wire Wire Line
-	4000 2100 2200 2100
-Wire Wire Line
-	4000 2300 2100 2300
 Wire Wire Line
 	2100 2300 2100 4300
 Wire Wire Line
@@ -158,4 +142,68 @@ Wire Wire Line
 Connection ~ 2500 3600
 Wire Wire Line
 	2500 3600 2500 7600
+$Comp
+L power:+6V #PWR?
+U 1 1 62887F3E
+P 3900 2100
+AR Path="/6276643A/62887F3E" Ref="#PWR?"  Part="1" 
+AR Path="/62740CD0/62887F3E" Ref="#PWR?"  Part="1" 
+AR Path="/62804339/62887F3E" Ref="#PWR?"  Part="1" 
+AR Path="/627A1DA3/62887F3E" Ref="#PWR?"  Part="1" 
+AR Path="/62887F3E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 1950 50  0001 C CNN
+F 1 "+6V" H 3915 2273 50  0000 C CNN
+F 2 "" H 3900 2100 50  0001 C CNN
+F 3 "" H 3900 2100 50  0001 C CNN
+	1    3900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6288900A
+P 3900 2300
+AR Path="/6276643A/6288900A" Ref="#PWR?"  Part="1" 
+AR Path="/62740CD0/6288900A" Ref="#PWR?"  Part="1" 
+AR Path="/62804339/6288900A" Ref="#PWR?"  Part="1" 
+AR Path="/627A1DA3/6288900A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 2050 50  0001 C CNN
+F 1 "GND" H 3905 2127 50  0000 C CNN
+F 2 "" H 3900 2300 50  0001 C CNN
+F 3 "" H 3900 2300 50  0001 C CNN
+	1    3900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2300 3900 2300
+Connection ~ 3900 2300
+Wire Wire Line
+	3900 2300 4000 2300
+Wire Wire Line
+	2200 2100 3900 2100
+Connection ~ 3900 2100
+Wire Wire Line
+	3900 2100 4000 2100
+$Sheet
+S 1000 3000 1000 1500
+U 62740CD0
+F0 "Snare" 50
+F1 "E:/GitHub/Eurorack/DR-55/DR-55-Snare/DR-55-Snare.sch" 50
+F2 "TRGIN" I R 2000 3200 50 
+F3 "GND" I R 2000 4300 50 
+F4 "OUT" I R 2000 3800 50 
+F5 "6V" I R 2000 4100 50 
+F6 "NOISEIN" I R 2000 3400 50 
+F7 "NOISYOUT" I R 2000 3600 50 
+$EndSheet
+Wire Wire Line
+	2000 3400 2700 3400
+Wire Wire Line
+	2700 3400 2700 7400
+Wire Wire Line
+	2700 7400 2000 7400
+Wire Wire Line
+	2700 7400 2700 9400
+Wire Wire Line
+	2700 9400 2000 9400
+Connection ~ 2700 7400
 $EndSCHEMATC
