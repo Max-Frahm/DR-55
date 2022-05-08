@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -13,16 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1000 1000 1000 1500
-U 6276643A
-F0 "Kick" 50
-F1 "E:/GitHub/Eurorack/DR-55/DR-55-Kick/DR-55-Kick.sch" 50
-F2 "OUT" I R 2000 1800 50 
-F3 "TRGIN" I R 2000 1200 50 
-F4 "6V" I R 2000 2100 50 
-F5 "GND" I R 2000 2300 50 
-$EndSheet
 $Sheet
 S 1000 3000 1000 1500
 U 62740CD0
@@ -65,5 +55,21 @@ F1 "E:/GitHub/Eurorack/DR-55/DR-55-Noise/DR-55-Noise.sch" 50
 F2 "GND" I R 2000 10300 50 
 F3 "6V" I R 2000 10100 50 
 F4 "NOISEOUT" I R 2000 9400 50 
+$EndSheet
+$Sheet
+S 4000 1000 1000 1500
+U 627A1DA3
+F0 "OUTPUT" 50
+F1 "E:/GitHub/Eurorack/DR-55/DR-55-OUT/DR-55-OUT.sch" 50
+$EndSheet
+$Sheet
+S 1000 1000 1000 1500
+U 6276643A
+F0 "Kick" 50
+F1 "E:/GitHub/Eurorack/DR-55/DR-55-Kick/DR-55-Kick.sch" 50
+F2 "OUT" I R 2000 1800 50 
+F3 "TRGIN" I R 2000 1200 50 
+F4 "6V" I R 2000 2100 50 
+F5 "GND" I R 2000 2300 50 
 $EndSheet
 $EndSCHEMATC
