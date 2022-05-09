@@ -138,8 +138,8 @@ AR Path="/6276643A/62887F3E" Ref="#PWR?"  Part="1"
 AR Path="/62740CD0/62887F3E" Ref="#PWR?"  Part="1" 
 AR Path="/62804339/62887F3E" Ref="#PWR?"  Part="1" 
 AR Path="/627A1DA3/62887F3E" Ref="#PWR?"  Part="1" 
-AR Path="/62887F3E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3900 1950 50  0001 C CNN
+AR Path="/62887F3E" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3900 1950 50  0001 C CNN
 F 1 "+6V" H 3915 2273 50  0000 C CNN
 F 2 "" H 3900 2100 50  0001 C CNN
 F 3 "" H 3900 2100 50  0001 C CNN
@@ -154,8 +154,8 @@ AR Path="/6276643A/6288900A" Ref="#PWR?"  Part="1"
 AR Path="/62740CD0/6288900A" Ref="#PWR?"  Part="1" 
 AR Path="/62804339/6288900A" Ref="#PWR?"  Part="1" 
 AR Path="/627A1DA3/6288900A" Ref="#PWR?"  Part="1" 
-AR Path="/6288900A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3900 2050 50  0001 C CNN
+AR Path="/6288900A" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3900 2050 50  0001 C CNN
 F 1 "GND" H 3905 2127 50  0000 C CNN
 F 2 "" H 3900 2300 50  0001 C CNN
 F 3 "" H 3900 2300 50  0001 C CNN
@@ -196,12 +196,12 @@ Wire Wire Line
 	2700 9400 2000 9400
 Connection ~ 2700 7400
 $Comp
-L Eurorack:Thonkiconn J?
+L Eurorack:Thonkiconn J6
 U 1 1 627AD8C4
 P 5750 1200
-F 0 "J?" H 5794 1168 50  0000 L CNN
+F 0 "J6" H 5794 1168 50  0000 L CNN
 F 1 "OUT" H 5794 1077 50  0000 L CNN
-F 2 "" H 5650 1250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5650 1250 50  0001 C CNN
 F 3 "" H 5650 1250 50  0001 C CNN
 	1    5750 1200
 	1    0    0    -1  
@@ -228,8 +228,8 @@ AR Path="/6276643A/627B2033" Ref="#PWR?"  Part="1"
 AR Path="/62740CD0/627B2033" Ref="#PWR?"  Part="1" 
 AR Path="/62804339/627B2033" Ref="#PWR?"  Part="1" 
 AR Path="/627A1DA3/627B2033" Ref="#PWR?"  Part="1" 
-AR Path="/627B2033" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5750 1250 50  0001 C CNN
+AR Path="/627B2033" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5750 1250 50  0001 C CNN
 F 1 "GND" H 5755 1327 50  0000 C CNN
 F 2 "" H 5750 1500 50  0001 C CNN
 F 3 "" H 5750 1500 50  0001 C CNN
@@ -239,56 +239,56 @@ $EndComp
 Wire Wire Line
 	5750 1500 5750 1400
 $Comp
-L Eurorack:Thonkiconn J?
+L Eurorack:Thonkiconn J1
 U 1 1 627B3297
 P 4250 3000
-F 0 "J?" H 4294 2968 50  0000 L CNN
+F 0 "J1" H 4294 2968 50  0000 L CNN
 F 1 "KICK" H 4294 2877 50  0000 L CNN
-F 2 "" H 4150 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 3050 50  0001 C CNN
 F 3 "" H 4150 3050 50  0001 C CNN
 	1    4250 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eurorack:Thonkiconn J?
+L Eurorack:Thonkiconn J2
 U 1 1 627B659A
 P 4250 3500
-F 0 "J?" H 4294 3468 50  0000 L CNN
+F 0 "J2" H 4294 3468 50  0000 L CNN
 F 1 "SNARE" H 4294 3377 50  0000 L CNN
-F 2 "" H 4150 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 3550 50  0001 C CNN
 F 3 "" H 4150 3550 50  0001 C CNN
 	1    4250 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eurorack:Thonkiconn J?
+L Eurorack:Thonkiconn J3
 U 1 1 627B6F00
 P 4250 4000
-F 0 "J?" H 4294 3968 50  0000 L CNN
+F 0 "J3" H 4294 3968 50  0000 L CNN
 F 1 "RIM" H 4294 3877 50  0000 L CNN
-F 2 "" H 4150 4050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 4050 50  0001 C CNN
 F 3 "" H 4150 4050 50  0001 C CNN
 	1    4250 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eurorack:Thonkiconn J?
+L Eurorack:Thonkiconn J4
 U 1 1 627B7907
 P 4250 4500
-F 0 "J?" H 4294 4468 50  0000 L CNN
+F 0 "J4" H 4294 4468 50  0000 L CNN
 F 1 "HIHAT" H 4294 4377 50  0000 L CNN
-F 2 "" H 4150 4550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 4550 50  0001 C CNN
 F 3 "" H 4150 4550 50  0001 C CNN
 	1    4250 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eurorack:Thonkiconn J?
+L Eurorack:Thonkiconn J5
 U 1 1 627B86EE
 P 4250 5000
-F 0 "J?" H 4294 4968 50  0000 L CNN
+F 0 "J5" H 4294 4968 50  0000 L CNN
 F 1 "ACCENT" H 4294 4877 50  0000 L CNN
-F 2 "" H 4150 5050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 5050 50  0001 C CNN
 F 3 "" H 4150 5050 50  0001 C CNN
 	1    4250 5000
 	1    0    0    -1  
