@@ -72,7 +72,7 @@ AR Path="/62804B1F/627B320F" Ref="C?"  Part="1"
 AR Path="/627A1DA3/627B320F" Ref="C6"  Part="1" 
 F 0 "C6" H 2618 3296 50  0000 L CNN
 F 1 ".15/35" H 2618 3205 50  0000 L CNN
-F 2 "" H 2538 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2538 3100 50  0001 C CNN
 F 3 "~" H 2500 3250 50  0001 C CNN
 	1    2500 3250
 	1    0    0    -1  
@@ -111,7 +111,7 @@ U 1 1 627B95DC
 P 2500 1750
 F 0 "VR4" H 2628 1796 50  0000 L CNN
 F 1 "500kC" H 2628 1705 50  0000 L CNN
-F 2 "" V 2430 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 2430 1750 50  0001 C CNN
 F 3 "~" H 2500 1750 50  0001 C CNN
 	1    2500 1750
 	1    0    0    -1  
@@ -149,7 +149,7 @@ AR Path="/62804B1F/627C1BFC" Ref="C?"  Part="1"
 AR Path="/627A1DA3/627C1BFC" Ref="C24"  Part="1" 
 F 0 "C24" H 2368 1546 50  0000 L CNN
 F 1 "4.7/35" H 2368 1455 50  0000 L CNN
-F 2 "" H 2288 1350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2288 1350 50  0001 C CNN
 F 3 "~" H 2250 1500 50  0001 C CNN
 	1    2250 1500
 	0    1    -1   0   
@@ -249,7 +249,7 @@ AR Path="/62804B1F/627C63AF" Ref="C?"  Part="1"
 AR Path="/627A1DA3/627C63AF" Ref="C7"  Part="1" 
 F 0 "C7" H 4118 2796 50  0000 L CNN
 F 1 "22/10" H 4118 2705 50  0000 L CNN
-F 2 "" H 4038 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4038 2600 50  0001 C CNN
 F 3 "~" H 4000 2750 50  0001 C CNN
 	1    4000 2750
 	1    0    0    -1  
@@ -387,7 +387,7 @@ L Eurorack:Thonkiconn J7
 U 1 1 627D0284
 P 3500 3000
 F 0 "J7" H 3350 3050 50  0000 L CNN
-F 1 "Thonkiconn" H 3350 3150 50  0000 L CNN
+F 1 "Accent OUT" H 3350 3150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 3200 50  0001 C CNN
 F 3 "" H 3300 3200 50  0001 C CNN
 	1    3500 3000
@@ -467,7 +467,7 @@ AR Path="/62804B1F/62821AD2" Ref="C?"  Part="1"
 AR Path="/627A1DA3/62821AD2" Ref="C11"  Part="1" 
 F 0 "C11" H 5868 5546 50  0000 L CNN
 F 1 "4.7/35" H 5868 5455 50  0000 L CNN
-F 2 "" H 5788 5350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5788 5350 50  0001 C CNN
 F 3 "~" H 5750 5500 50  0001 C CNN
 	1    5750 5500
 	0    -1   -1   0   
@@ -523,7 +523,7 @@ AR Path="/62804B1F/62827240" Ref="C?"  Part="1"
 AR Path="/627A1DA3/62827240" Ref="C12"  Part="1" 
 F 0 "C12" H 6118 4796 50  0000 L CNN
 F 1 "22/10" H 6118 4705 50  0000 L CNN
-F 2 "" H 6038 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6038 4600 50  0001 C CNN
 F 3 "~" H 6000 4750 50  0001 C CNN
 	1    6000 4750
 	1    0    0    -1  
@@ -572,7 +572,7 @@ U 1 1 6282DE59
 P 4500 5500
 F 0 "VR1" H 4628 5546 50  0000 L CNN
 F 1 "1MA" H 4628 5455 50  0000 L CNN
-F 2 "" V 4430 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 4430 5500 50  0001 C CNN
 F 3 "~" H 4500 5500 50  0001 C CNN
 	1    4500 5500
 	1    0    0    -1  
@@ -594,7 +594,7 @@ AR Path="/62804B1F/6283321B" Ref="C?"  Part="1"
 AR Path="/627A1DA3/6283321B" Ref="C9"  Part="1" 
 F 0 "C9" H 4368 6046 50  0000 L CNN
 F 1 "4.7/35" H 4368 5955 50  0000 L CNN
-F 2 "" H 4288 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4288 5850 50  0001 C CNN
 F 3 "~" H 4250 6000 50  0001 C CNN
 	1    4250 6000
 	0    1    -1   0   
@@ -624,7 +624,7 @@ AR Path="/62804B1F/6283956B" Ref="RV?"  Part="1"
 AR Path="/627A1DA3/6283956B" Ref="VR2"  Part="1" 
 F 0 "VR2" H 3430 5046 50  0000 R CNN
 F 1 "10kA" H 3430 4955 50  0000 R CNN
-F 2 "" H 3500 5000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3500 5000 50  0001 C CNN
 F 3 "~" H 3500 5000 50  0001 C CNN
 	1    3500 5000
 	1    0    0    -1  
@@ -637,7 +637,7 @@ AR Path="/62804B1F/6283A921" Ref="C?"  Part="1"
 AR Path="/627A1DA3/6283A921" Ref="C8"  Part="1" 
 F 0 "C8" H 4368 4546 50  0000 L CNN
 F 1 "4.7/35" H 4368 4455 50  0000 L CNN
-F 2 "" H 4288 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4288 4350 50  0001 C CNN
 F 3 "~" H 4250 4500 50  0001 C CNN
 	1    4250 4500
 	0    1    -1   0   
