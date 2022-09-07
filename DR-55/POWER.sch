@@ -1,0 +1,247 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6000 3250 0    50   Input ~ 0
+6V
+$Comp
+L Device:C C?
+U 1 1 62A07334
+P 4000 3250
+AR Path="/6276643A/62A07334" Ref="C?"  Part="1" 
+AR Path="/62740CD0/62A07334" Ref="C?"  Part="1" 
+AR Path="/627D8A3A/62A07334" Ref="C?"  Part="1" 
+AR Path="/62A045C1/62A07334" Ref="C102"  Part="1" 
+F 0 "C102" H 4115 3296 50  0000 L CNN
+F 1 "100n" H 4115 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 3100 50  0001 C CNN
+F 3 "~" H 4000 3250 50  0001 C CNN
+	1    4000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62A0733A
+P 5500 3750
+AR Path="/62740CD0/62A0733A" Ref="R?"  Part="1" 
+AR Path="/627D8A3A/62A0733A" Ref="R?"  Part="1" 
+AR Path="/62A045C1/62A0733A" Ref="R110"  Part="1" 
+F 0 "R110" H 5570 3796 50  0000 L CNN
+F 1 "100k" H 5570 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 3750 50  0001 C CNN
+F 3 "~" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR?
+U 1 1 62A0734C
+P 6000 3000
+AR Path="/6276643A/62A0734C" Ref="#PWR?"  Part="1" 
+AR Path="/62740CD0/62A0734C" Ref="#PWR?"  Part="1" 
+AR Path="/627D8A3A/62A0734C" Ref="#PWR?"  Part="1" 
+AR Path="/62A045C1/62A0734C" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 6000 2850 50  0001 C CNN
+F 1 "+6V" H 6015 3173 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62A07EFC
+P 3250 5000
+AR Path="/6276643A/62A07EFC" Ref="#PWR?"  Part="1" 
+AR Path="/62740CD0/62A07EFC" Ref="#PWR?"  Part="1" 
+AR Path="/62804339/62A07EFC" Ref="#PWR?"  Part="1" 
+AR Path="/62804B1F/62A07EFC" Ref="#PWR?"  Part="1" 
+AR Path="/62A045C1/62A07EFC" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 3250 4750 50  0001 C CNN
+F 1 "GND" H 3255 4827 50  0000 C CNN
+F 2 "" H 3250 5000 50  0001 C CNN
+F 3 "" H 3250 5000 50  0001 C CNN
+	1    3250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62A0923E
+P 4000 3750
+AR Path="/6276643A/62A0923E" Ref="C?"  Part="1" 
+AR Path="/62740CD0/62A0923E" Ref="C?"  Part="1" 
+AR Path="/627D8A3A/62A0923E" Ref="C?"  Part="1" 
+AR Path="/62A045C1/62A0923E" Ref="C101"  Part="1" 
+F 0 "C101" H 4115 3796 50  0000 L CNN
+F 1 "100n" H 4115 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 3600 50  0001 C CNN
+F 3 "~" H 4000 3750 50  0001 C CNN
+	1    4000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62A0D494
+P 3750 3000
+AR Path="/62740CD0/62A0D494" Ref="D?"  Part="1" 
+AR Path="/62804339/62A0D494" Ref="D?"  Part="1" 
+AR Path="/62A045C1/62A0D494" Ref="D102"  Part="1" 
+F 0 "D102" V 3796 2920 50  0000 R CNN
+F 1 "D" V 3705 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3750 3000 50  0001 C CNN
+F 3 "~" H 3750 3000 50  0001 C CNN
+	1    3750 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62A0D9F1
+P 3750 4000
+AR Path="/62740CD0/62A0D9F1" Ref="D?"  Part="1" 
+AR Path="/62804339/62A0D9F1" Ref="D?"  Part="1" 
+AR Path="/62A045C1/62A0D9F1" Ref="D101"  Part="1" 
+F 0 "D101" V 3796 3920 50  0000 R CNN
+F 1 "D" V 3705 3920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3750 4000 50  0001 C CNN
+F 3 "~" H 3750 4000 50  0001 C CNN
+	1    3750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3900 4000 4000
+Wire Wire Line
+	4000 4000 3900 4000
+Wire Wire Line
+	3900 3000 4000 3000
+Wire Wire Line
+	4000 3000 4000 3100
+Wire Wire Line
+	4000 3600 4000 3500
+Wire Wire Line
+	4000 3500 3500 3500
+Connection ~ 4000 3500
+Wire Wire Line
+	4000 3500 4000 3400
+Wire Wire Line
+	3250 3600 3500 3600
+Wire Wire Line
+	3500 3600 3500 3500
+Connection ~ 3500 3500
+Wire Wire Line
+	3500 3500 3250 3500
+Wire Wire Line
+	3250 3400 3500 3400
+Wire Wire Line
+	3500 3400 3500 3500
+Wire Wire Line
+	2500 3000 2500 3300
+Wire Wire Line
+	2500 3300 2750 3300
+Wire Wire Line
+	2500 3000 3500 3000
+Wire Wire Line
+	3250 3300 3500 3300
+Wire Wire Line
+	3500 3300 3500 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3500 3000 3600 3000
+Wire Wire Line
+	3250 3700 3500 3700
+Wire Wire Line
+	3500 3700 3500 4000
+Wire Wire Line
+	3500 4000 2500 4000
+Wire Wire Line
+	2500 4000 2500 3700
+Wire Wire Line
+	2500 3700 2750 3700
+Wire Wire Line
+	3600 4000 3500 4000
+Connection ~ 3500 4000
+Wire Wire Line
+	2750 3600 2500 3600
+Wire Wire Line
+	2500 3600 2500 3500
+Wire Wire Line
+	2500 3400 2750 3400
+Wire Wire Line
+	2750 3500 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3500 2500 3400
+Wire Wire Line
+	2500 3500 2000 3500
+Wire Wire Line
+	2000 3500 2000 4500
+Wire Wire Line
+	2000 4500 3250 4500
+Wire Wire Line
+	4500 4500 4500 4000
+Wire Wire Line
+	4500 3500 4000 3500
+Wire Wire Line
+	3250 5000 3250 4500
+Connection ~ 3250 4500
+Wire Wire Line
+	3250 4500 4500 4500
+$Comp
+L Device:R R?
+U 1 1 62A15252
+P 5500 3250
+AR Path="/62740CD0/62A15252" Ref="R?"  Part="1" 
+AR Path="/627D8A3A/62A15252" Ref="R?"  Part="1" 
+AR Path="/62A045C1/62A15252" Ref="R120"  Part="1" 
+F 0 "R120" H 5570 3296 50  0000 L CNN
+F 1 "100k" H 5570 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 3250 50  0001 C CNN
+F 3 "~" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3600 5500 3500
+Wire Wire Line
+	5500 3100 5500 3000
+Wire Wire Line
+	5500 3000 4000 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	5500 3900 5500 4000
+Wire Wire Line
+	5500 4000 4500 4000
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 4500 3500
+Wire Wire Line
+	6000 3000 6000 3500
+Wire Wire Line
+	6000 3500 5500 3500
+Connection ~ 5500 3500
+Wire Wire Line
+	5500 3500 5500 3400
+Text HLabel 3250 4750 0    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J100
+U 1 1 62A2FE37
+P 2950 3500
+F 0 "J100" H 3000 3917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3000 3826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 2950 3500 50  0001 C CNN
+F 3 "~" H 2950 3500 50  0001 C CNN
+	1    2950 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

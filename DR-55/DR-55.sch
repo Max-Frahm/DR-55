@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -201,7 +201,7 @@ U 1 1 627AD8C4
 P 5750 1200
 F 0 "J6" H 5794 1168 50  0000 L CNN
 F 1 "OUT" H 5794 1077 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5650 1250 50  0001 C CNN
+F 2 "eurocad-master:PJ301M-12" H 5650 1250 50  0001 C CNN
 F 3 "" H 5650 1250 50  0001 C CNN
 	1    5750 1200
 	1    0    0    -1  
@@ -244,7 +244,7 @@ U 1 1 627B3297
 P 4250 3000
 F 0 "J1" H 4294 2968 50  0000 L CNN
 F 1 "KICK" H 4294 2877 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 3050 50  0001 C CNN
+F 2 "eurocad-master:PJ301M-12" H 4150 3050 50  0001 C CNN
 F 3 "" H 4150 3050 50  0001 C CNN
 	1    4250 3000
 	1    0    0    -1  
@@ -255,7 +255,7 @@ U 1 1 627B659A
 P 4250 3500
 F 0 "J2" H 4294 3468 50  0000 L CNN
 F 1 "SNARE" H 4294 3377 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 3550 50  0001 C CNN
+F 2 "eurocad-master:PJ301M-12" H 4150 3550 50  0001 C CNN
 F 3 "" H 4150 3550 50  0001 C CNN
 	1    4250 3500
 	1    0    0    -1  
@@ -266,7 +266,7 @@ U 1 1 627B6F00
 P 4250 4000
 F 0 "J3" H 4294 3968 50  0000 L CNN
 F 1 "RIM" H 4294 3877 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 4050 50  0001 C CNN
+F 2 "eurocad-master:PJ301M-12" H 4150 4050 50  0001 C CNN
 F 3 "" H 4150 4050 50  0001 C CNN
 	1    4250 4000
 	1    0    0    -1  
@@ -277,7 +277,7 @@ U 1 1 627B7907
 P 4250 4500
 F 0 "J4" H 4294 4468 50  0000 L CNN
 F 1 "HIHAT" H 4294 4377 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 4550 50  0001 C CNN
+F 2 "eurocad-master:PJ301M-12" H 4150 4550 50  0001 C CNN
 F 3 "" H 4150 4550 50  0001 C CNN
 	1    4250 4500
 	1    0    0    -1  
@@ -288,7 +288,7 @@ U 1 1 627B86EE
 P 4250 5000
 F 0 "J5" H 4294 4968 50  0000 L CNN
 F 1 "ACCENT" H 4294 4877 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 5050 50  0001 C CNN
+F 2 "eurocad-master:PJ301M-12" H 4150 5050 50  0001 C CNN
 F 3 "" H 4150 5050 50  0001 C CNN
 	1    4250 5000
 	1    0    0    -1  
@@ -350,4 +350,18 @@ Wire Wire Line
 	3100 1200 4000 1200
 Wire Wire Line
 	2700 1200 2000 1200
+$Sheet
+S 4000 9000 1000 1500
+U 62A045C1
+F0 "POWER" 50
+F1 "POWER.sch" 50
+F2 "6V" I L 4000 10100 50 
+F3 "GND" I L 4000 10300 50 
+$EndSheet
+Wire Wire Line
+	2100 10300 4000 10300
+Connection ~ 2100 10300
+Wire Wire Line
+	4000 10100 2200 10100
+Connection ~ 2200 10100
 $EndSCHEMATC

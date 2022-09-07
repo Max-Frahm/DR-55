@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -24,7 +24,7 @@ AR Path="/62804339/627AB13F" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627AB13F" Ref="R60"  Part="1" 
 F 0 "R60" H 2320 3046 50  0000 L CNN
 F 1 "1k" H 2320 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2180 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 3000 50  0001 C CNN
 F 3 "~" H 2250 3000 50  0001 C CNN
 	1    2250 3000
 	0    -1   -1   0   
@@ -72,7 +72,7 @@ AR Path="/62804B1F/627B320F" Ref="C?"  Part="1"
 AR Path="/627A1DA3/627B320F" Ref="C6"  Part="1" 
 F 0 "C6" H 2618 3296 50  0000 L CNN
 F 1 ".15/35" H 2618 3205 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2538 3100 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2538 3100 50  0001 C CNN
 F 3 "~" H 2500 3250 50  0001 C CNN
 	1    2500 3250
 	1    0    0    -1  
@@ -86,7 +86,7 @@ AR Path="/62804339/627B6EC6" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627B6EC6" Ref="R16"  Part="1" 
 F 0 "R16" H 3070 3296 50  0000 L CNN
 F 1 "680k" H 3070 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 3250 50  0001 C CNN
 F 3 "~" H 3000 3250 50  0001 C CNN
 	1    3000 3250
 	1    0    0    -1  
@@ -100,7 +100,7 @@ AR Path="/62804339/627B7798" Ref="D?"  Part="1"
 AR Path="/627A1DA3/627B7798" Ref="D2"  Part="1" 
 F 0 "D2" V 3046 2670 50  0000 R CNN
 F 1 "D" V 2955 2670 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 3000 2750 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3000 2750 50  0001 C CNN
 F 3 "~" H 3000 2750 50  0001 C CNN
 	1    3000 2750
 	0    -1   -1   0   
@@ -111,7 +111,7 @@ U 1 1 627B95DC
 P 2500 1750
 F 0 "VR4" H 2628 1796 50  0000 L CNN
 F 1 "500kC" H 2628 1705 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 2430 1750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" V 2430 1750 50  0001 C CNN
 F 3 "~" H 2500 1750 50  0001 C CNN
 	1    2500 1750
 	1    0    0    -1  
@@ -122,7 +122,7 @@ U 1 1 627BBF5F
 P 3000 2100
 F 0 "Q3" V 3328 2100 50  0000 C CNN
 F 1 "Q_NJFET_SGD" V 3237 2100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3200 2200 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 3200 2200 50  0001 C CNN
 F 3 "~" H 3000 2100 50  0001 C CNN
 	1    3000 2100
 	0    -1   -1   0   
@@ -136,7 +136,7 @@ AR Path="/62804339/627BF099" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627BF099" Ref="R13"  Part="1" 
 F 0 "R13" H 3570 2546 50  0000 L CNN
 F 1 "2.2M" H 3570 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3430 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3430 2500 50  0001 C CNN
 F 3 "~" H 3500 2500 50  0001 C CNN
 	1    3500 2500
 	0    -1   -1   0   
@@ -149,7 +149,7 @@ AR Path="/62804B1F/627C1BFC" Ref="C?"  Part="1"
 AR Path="/627A1DA3/627C1BFC" Ref="C24"  Part="1" 
 F 0 "C24" H 2368 1546 50  0000 L CNN
 F 1 "4.7/35" H 2368 1455 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2288 1350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2288 1350 50  0001 C CNN
 F 3 "~" H 2250 1500 50  0001 C CNN
 	1    2250 1500
 	0    1    -1   0   
@@ -163,7 +163,7 @@ AR Path="/62804339/627C2326" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627C2326" Ref="R39"  Part="1" 
 F 0 "R39" H 2070 1796 50  0000 L CNN
 F 1 "47k" H 2070 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1930 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1930 1750 50  0001 C CNN
 F 3 "~" H 2000 1750 50  0001 C CNN
 	1    2000 1750
 	1    0    0    -1  
@@ -177,7 +177,7 @@ AR Path="/62804339/627C2CC6" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627C2CC6" Ref="R14"  Part="1" 
 F 0 "R14" H 3070 1546 50  0000 L CNN
 F 1 "100k" H 3070 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 1500 50  0001 C CNN
 F 3 "~" H 3000 1500 50  0001 C CNN
 	1    3000 1500
 	0    -1   -1   0   
@@ -191,7 +191,7 @@ AR Path="/62804339/627C2F5B" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627C2F5B" Ref="R15"  Part="1" 
 F 0 "R15" H 3820 1546 50  0000 L CNN
 F 1 "68k" H 3820 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3680 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3680 1500 50  0001 C CNN
 F 3 "~" H 3750 1500 50  0001 C CNN
 	1    3750 1500
 	0    -1   -1   0   
@@ -249,7 +249,7 @@ AR Path="/62804B1F/627C63AF" Ref="C?"  Part="1"
 AR Path="/627A1DA3/627C63AF" Ref="C7"  Part="1" 
 F 0 "C7" H 4118 2796 50  0000 L CNN
 F 1 "22/10" H 4118 2705 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4038 2600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4038 2600 50  0001 C CNN
 F 3 "~" H 4000 2750 50  0001 C CNN
 	1    4000 2750
 	1    0    0    -1  
@@ -266,7 +266,7 @@ AR Path="/62804339/627C6E6F" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627C6E6F" Ref="R101"  Part="1" 
 F 0 "R101" H 5070 1296 50  0000 L CNN
 F 1 "22k" H 5070 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 1250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4930 1250 50  0001 C CNN
 F 3 "~" H 5000 1250 50  0001 C CNN
 	1    5000 1250
 	1    0    0    -1  
@@ -280,7 +280,7 @@ AR Path="/62804339/627C72BD" Ref="R?"  Part="1"
 AR Path="/627A1DA3/627C72BD" Ref="R102"  Part="1" 
 F 0 "R102" H 5070 1796 50  0000 L CNN
 F 1 "68k" H 5070 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4930 1750 50  0001 C CNN
 F 3 "~" H 5000 1750 50  0001 C CNN
 	1    5000 1750
 	1    0    0    -1  
@@ -383,12 +383,12 @@ Wire Wire Line
 Wire Wire Line
 	1500 3000 1600 3000
 $Comp
-L Eurorack:Thonkiconn J7
+L DR-55-rescue:Thonkiconn-Eurorack J7
 U 1 1 627D0284
 P 3500 3000
 F 0 "J7" H 3350 3050 50  0000 L CNN
 F 1 "Accent OUT" H 3350 3150 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3300 3200 50  0001 C CNN
 F 3 "" H 3300 3200 50  0001 C CNN
 	1    3500 3000
 	1    0    0    -1  
@@ -425,7 +425,7 @@ AR Path="/62804339/6281E074" Ref="R?"  Part="1"
 AR Path="/627A1DA3/6281E074" Ref="R19"  Part="1" 
 F 0 "R19" H 5570 4796 50  0000 L CNN
 F 1 "10k" H 5570 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 4750 50  0001 C CNN
 F 3 "~" H 5500 4750 50  0001 C CNN
 	1    5500 4750
 	1    0    0    -1  
@@ -440,7 +440,7 @@ AR Path="/62804339/6281EC37" Ref="C?"  Part="1"
 AR Path="/627A1DA3/6281EC37" Ref="C10"  Part="1" 
 F 0 "C10" H 5115 5046 50  0000 L CNN
 F 1 ".0018" H 5115 4955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5038 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5038 4850 50  0001 C CNN
 F 3 "~" H 5000 5000 50  0001 C CNN
 	1    5000 5000
 	0    -1   -1   0   
@@ -454,7 +454,7 @@ AR Path="/62804339/6281F3FA" Ref="R?"  Part="1"
 AR Path="/627A1DA3/6281F3FA" Ref="R18"  Part="1" 
 F 0 "R18" H 5070 5796 50  0000 L CNN
 F 1 "2.2M" H 5070 5705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4930 5750 50  0001 C CNN
 F 3 "~" H 5000 5750 50  0001 C CNN
 	1    5000 5750
 	1    0    0    -1  
@@ -467,7 +467,7 @@ AR Path="/62804B1F/62821AD2" Ref="C?"  Part="1"
 AR Path="/627A1DA3/62821AD2" Ref="C11"  Part="1" 
 F 0 "C11" H 5868 5546 50  0000 L CNN
 F 1 "4.7/35" H 5868 5455 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5788 5350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5788 5350 50  0001 C CNN
 F 3 "~" H 5750 5500 50  0001 C CNN
 	1    5750 5500
 	0    -1   -1   0   
@@ -482,7 +482,7 @@ AR Path="/62804339/62822EB6" Ref="Q?"  Part="1"
 AR Path="/627A1DA3/62822EB6" Ref="Q4"  Part="1" 
 F 0 "Q4" H 5591 6046 50  0000 L CNN
 F 1 "Q_NPN_BCE" H 5591 5955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5600 6100 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 5600 6100 50  0001 C CNN
 F 3 "~" H 5400 6000 50  0001 C CNN
 	1    5400 6000
 	1    0    0    -1  
@@ -496,7 +496,7 @@ AR Path="/62804339/62824C07" Ref="R?"  Part="1"
 AR Path="/627A1DA3/62824C07" Ref="R20"  Part="1" 
 F 0 "R20" H 5570 6796 50  0000 L CNN
 F 1 "100" H 5570 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 6750 50  0001 C CNN
 F 3 "~" H 5500 6750 50  0001 C CNN
 	1    5500 6750
 	1    0    0    -1  
@@ -510,7 +510,7 @@ AR Path="/62804339/62825E6B" Ref="R?"  Part="1"
 AR Path="/627A1DA3/62825E6B" Ref="R21"  Part="1" 
 F 0 "R21" H 6070 5796 50  0000 L CNN
 F 1 "100k" H 6070 5705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5930 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 5750 50  0001 C CNN
 F 3 "~" H 6000 5750 50  0001 C CNN
 	1    6000 5750
 	1    0    0    -1  
@@ -523,7 +523,7 @@ AR Path="/62804B1F/62827240" Ref="C?"  Part="1"
 AR Path="/627A1DA3/62827240" Ref="C12"  Part="1" 
 F 0 "C12" H 6118 4796 50  0000 L CNN
 F 1 "22/10" H 6118 4705 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6038 4600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6038 4600 50  0001 C CNN
 F 3 "~" H 6000 4750 50  0001 C CNN
 	1    6000 4750
 	1    0    0    -1  
@@ -537,7 +537,7 @@ AR Path="/62804339/62827ACA" Ref="R?"  Part="1"
 AR Path="/627A1DA3/62827ACA" Ref="R22"  Part="1" 
 F 0 "R22" H 6070 4296 50  0000 L CNN
 F 1 "1k" H 6070 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5930 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 4250 50  0001 C CNN
 F 3 "~" H 6000 4250 50  0001 C CNN
 	1    6000 4250
 	1    0    0    -1  
@@ -572,7 +572,7 @@ U 1 1 6282DE59
 P 4500 5500
 F 0 "VR1" H 4628 5546 50  0000 L CNN
 F 1 "1MA" H 4628 5455 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 4430 5500 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" V 4430 5500 50  0001 C CNN
 F 3 "~" H 4500 5500 50  0001 C CNN
 	1    4500 5500
 	1    0    0    -1  
@@ -594,7 +594,7 @@ AR Path="/62804B1F/6283321B" Ref="C?"  Part="1"
 AR Path="/627A1DA3/6283321B" Ref="C9"  Part="1" 
 F 0 "C9" H 4368 6046 50  0000 L CNN
 F 1 "4.7/35" H 4368 5955 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4288 5850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4288 5850 50  0001 C CNN
 F 3 "~" H 4250 6000 50  0001 C CNN
 	1    4250 6000
 	0    1    -1   0   
@@ -611,7 +611,7 @@ AR Path="/62804339/62835074" Ref="R?"  Part="1"
 AR Path="/627A1DA3/62835074" Ref="R17"  Part="1" 
 F 0 "R17" H 4070 5546 50  0000 L CNN
 F 1 "1k" H 4070 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 5500 50  0001 C CNN
 F 3 "~" H 4000 5500 50  0001 C CNN
 	1    4000 5500
 	1    0    0    -1  
@@ -624,7 +624,7 @@ AR Path="/62804B1F/6283956B" Ref="RV?"  Part="1"
 AR Path="/627A1DA3/6283956B" Ref="VR2"  Part="1" 
 F 0 "VR2" H 3430 5046 50  0000 R CNN
 F 1 "10kA" H 3430 4955 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3500 5000 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3500 5000 50  0001 C CNN
 F 3 "~" H 3500 5000 50  0001 C CNN
 	1    3500 5000
 	1    0    0    -1  
@@ -637,7 +637,7 @@ AR Path="/62804B1F/6283A921" Ref="C?"  Part="1"
 AR Path="/627A1DA3/6283A921" Ref="C8"  Part="1" 
 F 0 "C8" H 4368 4546 50  0000 L CNN
 F 1 "4.7/35" H 4368 4455 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4288 4350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4288 4350 50  0001 C CNN
 F 3 "~" H 4250 4500 50  0001 C CNN
 	1    4250 4500
 	0    1    -1   0   
